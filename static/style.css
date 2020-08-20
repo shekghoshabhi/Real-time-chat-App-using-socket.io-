@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: #d6efc7;
+}
+
+.container{
+    padding: 7rem;
+    border: 2px #393e46 solid;
+    border-radius: 10px;
+    background-color: #96bb7c;
+    
+    
+
+}
+
+
+
+#container{
+    background: transparent; padding: 3px; position: fixed; bottom: 0; width: 100%;
+}
+
+#list{ 
+    
+    text-align: initial;
+    list-style: none;
+}
+
+
+
+/* #list li:nth-child(odd) { background: #eee; } */

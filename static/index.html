@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="scrpt.js" ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Chat App</h1>
+
+<div id = "login" class="container">
+    <div style="padding-bottom: 3rem;">Please Enter your name</div>
+    <input  id="name" > <button id="btn1">login</button>
+</div>
+
+
+
+<div id = "chat" >
+<ul id="list" ></ul> 
+<div id = "container" >  
+<input  id="inp" style="border: 0; padding: 10px; width: 90%; margin-right: 0.5%; border:2px black solid ">
+<button id="btn" style="width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px;" >send message</button> 
+</div>
+</div>
+
+
+</body>
+</html>
